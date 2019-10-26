@@ -11,3 +11,5 @@ var popup = L.popup()
     .setLatLng([37.9735346, -122.5310874])
     .setContent('<p>Hello world!<br />This is a nice popup.</p>')
     .openOn(mymap);
+
+L.marker([37.9735346, -122.5310874]).addTo(mymap);
