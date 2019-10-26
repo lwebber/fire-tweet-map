@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fire Tweet Map</title>
+    <title>North Bay Fire Tweet Map</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
 </head>
@@ -13,21 +13,23 @@
     <nav>
 
     </nav>
-    <h1>Calfornia Fire Tweet Map</h1>
+    <h1>North Bay Fire Tweet Map</h1>
 </header>
 
 <body>
     <main>
         <div id="mapid"></div>
+        <form id="tag-select">
+            <input type="checkbox">#kincade
+            <input type="checkbox">#kincaid
+            <input type="checkbox">#calfire
+            <input type="checkbox">#geyserville
+        </form>
 
     </main>
 
-    <script>
-        < script src = "https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-        integrity = "sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-        crossorigin = "" >
-    </script>
-    </script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
